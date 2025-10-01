@@ -15,7 +15,7 @@ const TextForm = ({label, text}) => {
   };
 
   return (
-    <Form className="w-full max-w-xs" onSubmit={onSubmit}>
+    <Form className="w-full" onSubmit={onSubmit}>
       <Input
         isRequired
         errorMessage={`Please enter a valid ${text}`}
